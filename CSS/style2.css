@@ -1,5 +1,6 @@
 /* About and Contact page styles */
-/* Two column section styles */
+
+/* About page two column section styles */
 .two-column-container {
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -29,7 +30,8 @@
 
 
 /* About page button styles */
-button {
+.contact-button {
+    text-decoration: none;
     background-color: #CDBB00;
     color: #615F45;
     padding: 10px;
@@ -42,7 +44,16 @@ button {
     cursor: pointer;
 }
 
-button:hover {
+.contact-button:hover {
+    background-color: #615F45;
+    color: #CDBB00;
+}
+
+.contact-button:visited {
+    color: #615F45;
+}
+
+.contact-button:visited:hover {
     background-color: #615F45;
     color: #CDBB00;
 }
@@ -54,7 +65,7 @@ button:hover {
     width: 700px;
 }
 
-/* Three column section styles */
+/* About page three column section styles */
 .three-column-container {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
@@ -91,11 +102,6 @@ button:hover {
     color: #CDBB00;
     background-color: #615F45;
 }
-
-/* .three-column-middle li {
-    padding-top: 10px;
-} */
-
 
 .three-column-right {
     padding: 20px 30px;

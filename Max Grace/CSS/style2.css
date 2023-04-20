@@ -1,5 +1,6 @@
 /* About and Contact page styles */
-/* Two column section styles */
+
+/* About page two column section styles */
 .two-column-container {
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -13,7 +14,6 @@
     font-family: 'Montserrat', sans-serif;
     font-size: large;
     font-weight: bold;
-    /* background-color: black; */
     color: #21BB00;
     border-radius: 80px;
 }
@@ -29,7 +29,9 @@
 
 
 /* About page button styles */
-button {
+
+.contact-button {
+    text-decoration: none;
     background-color: #21BB00;
     color: #46250A;
     padding: 10px;
@@ -42,6 +44,20 @@ button {
     cursor: pointer;
 }
 
+.contact-button:hover {
+    background-color: #46250A;
+    color: #21BB00;
+}
+
+.contact-button:visited {
+    color: #46250A;
+}
+
+.contact-button:visited:hover {
+    background-color: #46250A;
+    color: #21BB00;
+}
+
 .two-column-right img {
     padding-left: 50px;
     padding-right: 20px;
@@ -49,7 +65,7 @@ button {
     width: 700px;
 }
 
-/* Three column section styles */
+/* About page three column section styles */
 .three-column-container {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
@@ -100,6 +116,7 @@ button {
 }
 
 /* Contact page styles */
+/* Contact page two column section styles */
 .contact-container {
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -112,7 +129,6 @@ button {
     font-family: 'Montserrat', sans-serif;
     font-size: large;
     font-weight: bold;
-    /* background-color: black; */
     color: #21BB00;
     line-height: 40px;
 }

@@ -65,7 +65,7 @@ li a {
     padding: 10px;
 
 }
-/* Two column home page section styles */
+/* Home page two column section styles */
 .column-left {
     padding-top: 100px;
     padding-left: 50px;
@@ -85,7 +85,9 @@ li a {
 }
 
 /* Home page button styles */
-button {
+
+.contact-button {
+    text-decoration: none;
     background-color: #21BB00;
     color: #46250A;
     padding: 10px;
@@ -100,7 +102,16 @@ button {
     cursor: pointer;
 }
 
-button:hover {
+.contact-button:hover {
+    background-color: #46250A;
+    color: #21BB00;
+}
+
+.contact-button:visited {
+    color: #46250A;
+}
+
+.contact-button:visited:hover {
     background-color: #46250A;
     color: #21BB00;
 }
