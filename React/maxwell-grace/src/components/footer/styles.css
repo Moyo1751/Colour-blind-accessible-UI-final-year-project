@@ -1,0 +1,26 @@
+footer {
+  display: flex;
+  justify-content: space-between;
+  padding: 0px 50px 10px;
+}
+
+footer p {
+  font-weight: bold;
+}
+
+footer a {
+  font-weight: bold;
+}
+
+.footer-nav-links {
+  list-style: none;
+}
+
+.footer-nav li {
+  display: inline-block;
+  padding: 0px 20px;
+}
+
+.footer-nav li a {
+  color: #213c8d;
+}

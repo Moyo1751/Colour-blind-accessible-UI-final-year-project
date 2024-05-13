@@ -1,0 +1,67 @@
+/* Main content styles */
+.container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  align-items: center;
+  padding: 10px;
+}
+/* Home page two column section styles */
+.column-left {
+  padding-top: 70px;
+  padding-left: 50px;
+  font-family: "Montserrat", sans-serif;
+  font-size: large;
+  font-weight: bold;
+}
+
+.column-left h1 {
+  line-height: 44px;
+  color: #213c8d;
+}
+
+.column-left p {
+  line-height: 24px;
+  color: #213c8d;
+}
+
+.column-left p a:visited {
+  color: black;
+}
+
+/* Home page button styles */
+.contact-button {
+  text-decoration: none;
+  background-color: #e4d273;
+  color: #213c8d;
+  padding: 10px;
+  margin-top: 20px;
+  margin-left: 20px;
+  border: solid;
+  border-radius: 50px;
+  margin-bottom: 20px;
+  font-family: "Montserrat", sans-serif;
+  font-size: large;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.contact-button:hover {
+  background-color: #213c8d;
+  color: #e4d273;
+}
+
+.contact-button:visited {
+  color: #213c8d;
+}
+
+.contact-button:visited:hover {
+  background-color: #213c8d;
+  color: #e4d273;
+}
+
+.column-right img {
+  padding-left: 50px;
+  padding-right: 20px;
+  height: 500px;
+  width: 700px;
+}
