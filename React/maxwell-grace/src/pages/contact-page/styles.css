@@ -1,0 +1,60 @@
+/* Contact page styles */
+.contact-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  padding: 20px 30px 50px;
+  margin: 50px 30px;
+}
+/* Contact page two column section styles */
+.contact-col-left {
+  padding: 30px 30px;
+  font-family: "Montserrat", sans-serif;
+  font-size: large;
+  font-weight: bold;
+  background-color: #213c8d;
+  color: #e4d273;
+  line-height: 32px;
+}
+
+.contact-col-left li {
+  color: #e4d273;
+  /* margin: 5px; */
+}
+
+.contact-col-right {
+  padding: 30px 30px;
+  margin-left: 30px;
+  font-family: "Montserrat", sans-serif;
+  font-size: large;
+  font-weight: bold;
+  background-color: #213c8d;
+  color: #e4d273;
+}
+
+.required::after {
+  content: " *";
+  color: red;
+}
+
+.contact-info-h1 {
+  margin-bottom: 50px;
+  text-align: center;
+}
+
+label {
+  /* margin-bottom: 10px; */
+}
+
+input {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+.mssg {
+  padding-bottom: 100px;
+}

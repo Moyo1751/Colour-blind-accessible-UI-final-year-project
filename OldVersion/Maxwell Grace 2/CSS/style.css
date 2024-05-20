@@ -1,0 +1,154 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital@1&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Lato:ital@1&family=Montserrat:ital@1&display=swap");
+/* Main website styles */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: #e4d273;
+}
+
+/* Navbar styles */
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 10px;
+  background-color: #213c8d;
+}
+
+.logo {
+  cursor: pointer;
+  text-decoration: none;
+  font-family: "Lato", sans-serif;
+  font-weight: bold;
+  font-size: 25px;
+  color: #e4d273;
+}
+
+li a {
+  font-family: "Lato", sans-serif;
+  font-family: "Montserrat", sans-serif;
+  font-weight: bold;
+  font-size: 18px;
+  border-bottom: 1px solid #e4d273;
+  text-decoration: none;
+  color: #e4d273;
+}
+
+.nav-links {
+  list-style: none;
+}
+
+.nav-links li {
+  display: inline-block;
+  padding: 0px 20px;
+}
+
+.nav-links li a:hover {
+  color: white;
+  border-bottom: 1px solid white;
+}
+
+.active-page {
+  color: white;
+  border-bottom: 1px solid white;
+}
+
+/* Main content styles */
+.container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  padding: 10px;
+}
+/* Home page two column section styles */
+.column-left {
+  padding-top: 100px;
+  padding-left: 50px;
+  font-family: "Montserrat", sans-serif;
+  font-size: large;
+  font-weight: bold;
+}
+
+.column-left h1 {
+  line-height: 44px;
+  color: #213c8d;
+}
+
+.column-left p {
+  line-height: 24px;
+  color: #213c8d;
+}
+
+.column-left p a:visited {
+  color: black;
+}
+
+/* Home page button styles */
+.contact-button {
+  text-decoration: none;
+  background-color: #e4d273;
+  color: #213c8d;
+  padding: 10px;
+  margin-top: 20px;
+  margin-left: 20px;
+  border: solid;
+  border-radius: 50px;
+  margin-bottom: 20px;
+  font-family: "Montserrat", sans-serif;
+  font-size: large;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.contact-button:hover {
+  background-color: #213c8d;
+  color: #e4d273;
+}
+
+.contact-button:visited {
+  color: #213c8d;
+}
+
+.contact-button:visited:hover {
+  background-color: #213c8d;
+  color: #e4d273;
+}
+
+.column-right img {
+  padding-left: 50px;
+  padding-right: 20px;
+  height: 500px;
+  width: 700px;
+}
+
+/* Footer styles */
+footer {
+  display: flex;
+  justify-content: space-between;
+  padding: 0px 50px 10px;
+}
+
+footer p {
+  font-weight: bold;
+}
+
+footer a {
+  font-weight: bold;
+}
+
+.footer-nav-links {
+  list-style: none;
+}
+
+.footer-nav li {
+  display: inline-block;
+  padding: 0px 20px;
+}
+
+.footer-nav li a {
+  color: #213c8d;
+}

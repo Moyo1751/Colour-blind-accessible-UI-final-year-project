@@ -1,6 +1,12 @@
+import Footer from "../../components/footer";
+import Navbar from "../../components/navbar";
+import "./styles.css";
+import profilePic from "../../assets/jurica-koletic-7YVZYZeITc8-unsplash-modified2.png";
+
 export default function About() {
   return (
     <section id="about">
+      <Navbar />
       <div class="about-container">
         <div class="two-column-container">
           <div class="two-column-left">
@@ -24,10 +30,7 @@ export default function About() {
             </a>
           </div>
           <div class="two-column-right">
-            <img
-              src="images/jurica-koletic-7YVZYZeITc8-unsplash-modified2.png"
-              alt="Jurica Koletic portrait of a man"
-            ></img>
+            <img src={profilePic} alt="Jurica Koletic portrait of a man"></img>
           </div>
         </div>
         <div class="three-column-container">
@@ -91,6 +94,7 @@ export default function About() {
           </div>
         </div>
       </div>
+      <Footer />
     </section>
   );
 }
